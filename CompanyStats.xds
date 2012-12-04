@@ -1,0 +1,29 @@
+{
+    "name": "CompanyStats",
+    "settings": {},
+    "xdsVersion": "2.2.0",
+    "xdsBuild": 697,
+    "schemaVersion": 1,
+    "upgradeVersion": 210000000499,
+    "framework": "touch21",
+    "topInstanceFileMap": {
+        "b852498f-4d0f-47b8-9d93-949ab17c4d90": {
+            "paths": [
+                "metadata/resource/Library"
+            ],
+            "className": "Library"
+        }
+    },
+    "viewOrderMap": {
+        "view": [],
+        "store": [],
+        "controller": [],
+        "model": [],
+        "resource": [
+            "b852498f-4d0f-47b8-9d93-949ab17c4d90"
+        ],
+        "app": [
+            "application"
+        ]
+    }
+}
