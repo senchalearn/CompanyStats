@@ -1,0 +1,30 @@
+{
+    "type": "Ext.Container",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "designer|userClassName": "ChartContainer",
+        "designer|userAlias": "chartcontainer",
+        "layout": "fit"
+    },
+    "designerId": "7bce5aac-18fb-40af-9299-c695aa8259a4",
+    "cn": [
+        {
+            "type": "Ext.TitleBar",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "docked": "top",
+                "designer|userClassName": "MyTitleBar",
+                "title": "Bar chart"
+            },
+            "designerId": "b19df552-f044-4108-870c-3e8a6956cfd6"
+        }
+    ]
+}

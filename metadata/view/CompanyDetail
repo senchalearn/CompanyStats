@@ -1,0 +1,42 @@
+{
+    "type": "Ext.Panel",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "styleHtmlContent": true,
+        "designer|userClassName": "CompanyDetail",
+        "designer|userAlias": "companydetail",
+        "scrollable": "vertical"
+    },
+    "designerId": "92d27d78-73e9-4a38-9f7d-08c64c5d119c",
+    "cn": [
+        {
+            "type": "Ext.XTemplate",
+            "reference": {
+                "name": "tpl",
+                "type": "object"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "designer|userClassName": "tpl",
+                "implHandler": [
+                    "<dl>",
+                    "    <dt>Industry</dt>",
+                    "    <dd>{industry}</dd>",
+                    "",
+                    "    <dt>Revenue</dt>",
+                    "    <dd>{revenue}</dd>",
+                    "",
+                    "    <dt>No. of employees</dt>",
+                    "    <dd>{employees}</dd>",
+                    "</dl>"
+                ],
+                "designer|displayName": "tpl"
+            },
+            "designerId": "d430b969-95f2-4805-8a27-3e2fd0fe8a0e"
+        }
+    ]
+}

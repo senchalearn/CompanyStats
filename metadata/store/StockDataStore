@@ -1,0 +1,44 @@
+{
+    "type": "arraystore",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "autoLoad": true,
+        "model": "StockData",
+        "storeId": "StockDataStore",
+        "designer|userClassName": "StockDataStore"
+    },
+    "designerId": "40fc7982-3e30-4c67-b518-5fd5447da535",
+    "cn": [
+        {
+            "type": "Ext.data.proxy.Ajax",
+            "reference": {
+                "name": "proxy",
+                "type": "object"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "designer|userClassName": "MyAjaxProxy1",
+                "url": "http://localhost:4000/api/stocks-1.json"
+            },
+            "designerId": "bec4ca8e-7b50-417e-9c7a-8d161e9effaa",
+            "cn": [
+                {
+                    "type": "Ext.data.reader.Json",
+                    "reference": {
+                        "name": "reader",
+                        "type": "object"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "designer|userClassName": "MyJsonReader1"
+                    },
+                    "designerId": "cc37697f-8c23-4676-a933-9d64c22fd63f"
+                }
+            ]
+        }
+    ]
+}

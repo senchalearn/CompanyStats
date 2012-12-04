@@ -1,0 +1,77 @@
+{
+    "type": "Ext.Container",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "container|animation": "flip",
+        "container|animation.duration": null,
+        "designer|userClassName": "Main",
+        "designer|userAlias": "mainview",
+        "designer|initialView": true,
+        "layout": "card"
+    },
+    "designerId": "00d49b68-1c14-48c1-b941-656b75d076fa",
+    "cn": [
+        {
+            "type": "linkedinstance",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "designerId": "341b2ab5-2b68-4b2c-ab91-200a97ea8d43",
+            "masterInstanceId": "be0a6884-f6d6-436f-8bc6-bd096763f018"
+        },
+        {
+            "type": "linkedinstance",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "designerId": "7fdcff2b-5e46-4577-96fe-f886dc4878fe",
+            "masterInstanceId": "7bce5aac-18fb-40af-9299-c695aa8259a4"
+        },
+        {
+            "type": "Ext.Toolbar",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "container|pack": "center",
+                "docked": "bottom",
+                "designer|userClassName": "MyToolbar"
+            },
+            "designerId": "e55efca5-eed6-4277-a502-7c67a1c04bb1",
+            "cn": [
+                {
+                    "type": "Ext.Button",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "action": "toggleChart",
+                        "ui": "round",
+                        "designer|userClassName": "MyButton",
+                        "text": "show chart"
+                    },
+                    "designerId": "2e796abb-ad94-4666-9c23-8edec9e4117a",
+                    "customConfigs": [
+                        {
+                            "group": "(Custom Properties)",
+                            "name": "action",
+                            "type": "string"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

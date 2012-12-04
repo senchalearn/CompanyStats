@@ -12,13 +12,98 @@
                 "metadata/resource/Library"
             ],
             "className": "Library"
+        },
+        "00d49b68-1c14-48c1-b941-656b75d076fa": {
+            "paths": [
+                "metadata/view/Main",
+                "app/view/override/Main.js",
+                "app/view/Main.js"
+            ],
+            "className": "Main"
+        },
+        "be0a6884-f6d6-436f-8bc6-bd096763f018": {
+            "paths": [
+                "metadata/view/CompanyNavigation",
+                "app/view/override/CompanyNavigation.js",
+                "app/view/CompanyNavigation.js"
+            ],
+            "className": "CompanyNavigation"
+        },
+        "76b625d5-78d0-426c-acc5-3f3f890702d2": {
+            "paths": [
+                "metadata/store/CompanyStore",
+                "app/store/override/CompanyStore.js",
+                "app/store/CompanyStore.js"
+            ],
+            "className": "CompanyStore"
+        },
+        "b1393dcb-2a9e-48db-9048-56a5eae135a2": {
+            "paths": [
+                "metadata/model/Company",
+                "app/model/override/Company.js",
+                "app/model/Company.js"
+            ],
+            "className": "Company"
+        },
+        "92d27d78-73e9-4a38-9f7d-08c64c5d119c": {
+            "paths": [
+                "metadata/view/CompanyDetail",
+                "app/view/override/CompanyDetail.js",
+                "app/view/CompanyDetail.js"
+            ],
+            "className": "CompanyDetail"
+        },
+        "e8247472-3c88-43e7-bda0-dab35f114c19": {
+            "paths": [
+                "metadata/controller/CompanyController",
+                "app/controller/override/CompanyController.js",
+                "app/controller/CompanyController.js"
+            ],
+            "className": "CompanyController"
+        },
+        "7bce5aac-18fb-40af-9299-c695aa8259a4": {
+            "paths": [
+                "metadata/view/ChartContainer",
+                "app/view/override/ChartContainer.js",
+                "app/view/ChartContainer.js"
+            ],
+            "className": "ChartContainer"
+        },
+        "d34a5fff-2dff-481d-bb53-5d3b076d42a7": {
+            "paths": [
+                "metadata/model/StockData",
+                "app/model/override/StockData.js",
+                "app/model/StockData.js"
+            ],
+            "className": "StockData"
+        },
+        "40fc7982-3e30-4c67-b518-5fd5447da535": {
+            "paths": [
+                "metadata/store/StockDataStore",
+                "app/store/override/StockDataStore.js",
+                "app/store/StockDataStore.js"
+            ],
+            "className": "StockDataStore"
         }
     },
     "viewOrderMap": {
-        "view": [],
-        "store": [],
-        "controller": [],
-        "model": [],
+        "view": [
+            "00d49b68-1c14-48c1-b941-656b75d076fa",
+            "be0a6884-f6d6-436f-8bc6-bd096763f018",
+            "92d27d78-73e9-4a38-9f7d-08c64c5d119c",
+            "7bce5aac-18fb-40af-9299-c695aa8259a4"
+        ],
+        "store": [
+            "76b625d5-78d0-426c-acc5-3f3f890702d2",
+            "40fc7982-3e30-4c67-b518-5fd5447da535"
+        ],
+        "controller": [
+            "e8247472-3c88-43e7-bda0-dab35f114c19"
+        ],
+        "model": [
+            "b1393dcb-2a9e-48db-9048-56a5eae135a2",
+            "d34a5fff-2dff-481d-bb53-5d3b076d42a7"
+        ],
         "resource": [
             "b852498f-4d0f-47b8-9d93-949ab17c4d90"
         ],

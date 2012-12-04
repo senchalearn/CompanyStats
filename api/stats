@@ -1,0 +1,142 @@
+[
+{
+"id": "1",
+"name": "Exxon Mobil",
+"industry": "Petroleum",
+"revenue": "486.429",
+"employees": "99100"
+},
+{
+"id": "2",
+"name": "Royal Dutch Shell",
+"industry": "Oil and Gas",
+"revenue": "470.171",
+"employees": "90000"
+},
+{
+"id": "3",
+"name": "Walmart",
+"industry": "Retail",
+"revenue": "446.950",
+"employees": "2200000"
+},
+{
+"id": "4",
+"name": "Sinopec Group",
+"industry": "Oil and Gas",
+"revenue": "397.775",
+"employees": "400513"
+},
+{
+"id": "5",
+"name": "China National Petroleum Corporation",
+"industry": "Oil and Gas",
+"revenue": "378.025",
+"employees": "464000"
+},
+{
+"id": "6",
+"name": "BP",
+"industry": "Oil and Gas",
+"revenue": "375.517",
+"employees": "83400"
+},
+{
+"id": "7",
+"name": "Vitol",
+"industry": "Commodities",
+"revenue": "297",
+"employees": "2810"
+},
+{
+"id": "8",
+"name": "State Grid Corporation of China",
+"industry": "Electric utility",
+"revenue": "265.962",
+"employees": "1564001"
+},
+{
+"id": "9",
+"name": "Chevron",
+"industry": "Oil and Gas",
+"revenue": "253.706",
+"employees": "61189"
+},
+{
+"id": "10",
+"name": "ConocoPhillips",
+"industry": "Oil and Gas",
+"revenue": "251.226",
+"employees": "29800"
+},
+{
+"id": "11",
+"name": "Toyota",
+"industry": "Automotive",
+"revenue": "226.106",
+"employees": "325905"
+},
+{
+"id": "12",
+"name": "Total",
+"industry": "Oil and Gas",
+"revenue": "215.567",
+"employees": "111401"
+},
+{
+"id": "13",
+"name": "Volkswagen Group",
+"industry": "Automotive",
+"revenue": "206.264",
+"employees": "501956"
+},
+{
+"id": "14",
+"name": "Japan Post Holdings",
+"industry": "Conglomerate",
+"revenue": "201.187",
+"employees": "229134"
+},
+{
+"id": "15",
+"name": "Glencore",
+"industry": "Commodities",
+"revenue": "186.152",
+"employees": "52000"
+},
+{
+"id": "16",
+"name": "Saudi Aramco",
+"industry": "Oil and Gas",
+"revenue": "182",
+"employees": "54441"
+},
+{
+"id": "17",
+"name": "Gazprom",
+"industry": "Oil and Gas",
+"revenue": "158.1",
+"employees": "432000"
+},
+{
+"id": "18",
+"name": "Apple Inc.",
+"industry": "Electronics",
+"revenue": "156.508",
+"employees": "76100"
+},
+{
+"id": "19",
+"name": "General Motors",
+"industry": "Automotive",
+"revenue": "150.276",
+"employees": "284000"
+},
+{
+"id": "20",
+"name": "General Electric",
+"industry": "Conglomerate",
+"revenue": "147.300",
+"employees": "287000"
+}
+]

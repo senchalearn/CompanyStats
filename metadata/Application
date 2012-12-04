@@ -6,7 +6,24 @@
     },
     "codeClass": null,
     "userConfig": {
-        "name": "MyApp"
+        "models": [
+            "Company",
+            "StockData"
+        ],
+        "stores": [
+            "CompanyStore",
+            "StockDataStore"
+        ],
+        "views": [
+            "Main",
+            "CompanyNavigation",
+            "CompanyDetail",
+            "ChartContainer"
+        ],
+        "controllers": [
+            "CompanyController"
+        ],
+        "name": "ComStat"
     },
     "designerId": "application"
 }

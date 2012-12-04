@@ -1,0 +1,62 @@
+{
+    "type": "Ext.navigation.View",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "designer|userClassName": "CompanyNavigation",
+        "designer|userAlias": "companynavigation"
+    },
+    "designerId": "be0a6884-f6d6-436f-8bc6-bd096763f018",
+    "cn": [
+        {
+            "type": "Ext.dataview.List",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "title": "Companies",
+                "designer|userClassName": "MyList",
+                "store": "CompanyStore"
+            },
+            "designerId": "51751877-84e6-4d78-af3b-749531906487",
+            "cn": [
+                {
+                    "type": "Ext.XTemplate",
+                    "reference": {
+                        "name": "itemTpl",
+                        "type": "object"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "designer|userClassName": "itemTpl",
+                        "implHandler": [
+                            "<div>{name}</div>"
+                        ],
+                        "designer|displayName": "itemTpl"
+                    },
+                    "designerId": "24604896-173a-4554-80d5-c7c760a5cb62"
+                }
+            ]
+        },
+        {
+            "type": "Ext.navigation.Bar",
+            "reference": {
+                "name": "navigationBar",
+                "type": "object"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "designer|createAlias": "",
+                "docked": "top",
+                "designer|userClassName": "MyNavigationBar",
+                "designer|displayName": "navTitleBar"
+            },
+            "designerId": "5bd34648-b2b7-42ef-b374-aec379228edc"
+        }
+    ]
+}

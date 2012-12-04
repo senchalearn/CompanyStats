@@ -1,0 +1,164 @@
+{
+    "type": "Ext.app.Controller",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "designer|userClassName": "CompanyController"
+    },
+    "designerId": "e8247472-3c88-43e7-bda0-dab35f114c19",
+    "cn": [
+        {
+            "type": "controllerref",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "designer|userClassName": "navigation",
+                "ref": "navigation",
+                "selector": ".companynavigation"
+            },
+            "designerId": "fcab84d2-ef8a-4fb3-aa9d-c0bf65173a3e"
+        },
+        {
+            "type": "controlleraction",
+            "reference": {
+                "name": "listeners",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "designer|userClassName": "showDetailView",
+                "fn": "showDetailView",
+                "implHandler": [
+                    "var id = record.data.id,",
+                    "store = Ext.StoreManager.lookup('StockDataStore');",
+                    "store.getProxy().setUrl('http://localhost:4000/api/stock-data-'+id+'.json');",
+                    "",
+                    "var nav = this.getNavigation(),",
+                    "detail = Ext.create('ComStat.view.CompanyDetail', {",
+                    "\ttitle: record.data.name,",
+                    "\trecord: record",
+                    "});",
+                    "nav.push(detail);",
+                    ""
+                ],
+                "name": "itemtap",
+                "designer|targetType": "Ext.dataview.List",
+                "designer|controlQuery": ".companynavigation .list"
+            },
+            "designerId": "3a8c7245-b625-4ae1-b395-c36d55ffdc95"
+        },
+        {
+            "type": "controllerref",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "designer|userClassName": "mainView",
+                "ref": "mainView",
+                "selector": ".mainview"
+            },
+            "designerId": "e54caf91-49d4-4976-8929-0a760b58b446"
+        },
+        {
+            "type": "controlleraction",
+            "reference": {
+                "name": "listeners",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "designer|userClassName": "toggleChartView",
+                "fn": "toggleChartView",
+                "implHandler": [
+                    "var main = this.getMainView();",
+                    "var cont = this.getChartContainer();",
+                    "var titlebar = cont.child('titlebar');",
+                    "",
+                    "",
+                    "if (main.getActiveItem().id.match(/chartcontainer/)) {",
+                    "    main.setActiveItem('companynavigation');",
+                    "    button.setText('show chart');",
+                    "    cont.removeAll();",
+                    "} else {",
+                    "    if (titlebar.getTitle().match(/Bar/)) {",
+                    "\t\t// add a CompanyBarChart to the chart container",
+                    "    } else {",
+                    "        Ext.StoreManager.lookup('StockDataStore').load();",
+                    "\t\t// add a CompanyStockChart to the chart container",
+                    "    }",
+                    "    main.setActiveItem('chartcontainer');",
+                    "    button.setText('hide chart');",
+                    "}",
+                    ""
+                ],
+                "name": "tap",
+                "designer|targetType": "Ext.Button",
+                "designer|controlQuery": "[action='toggleChart']"
+            },
+            "designerId": "975f5213-c47b-49ae-8e44-76ed3dff6933"
+        },
+        {
+            "type": "controllerref",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "designer|userClassName": "chartContainer",
+                "ref": "chartContainer",
+                "selector": ".chartcontainer"
+            },
+            "designerId": "7d0a6760-5ecc-46bb-a62c-53625673fb14"
+        },
+        {
+            "type": "controlleraction",
+            "reference": {
+                "name": "listeners",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "designer|userClassName": "onNavigationviewActiveItemChange",
+                "fn": "onNavigationviewActiveItemChange",
+                "implHandler": [
+                    "var chartContainer = this.getChartContainer();",
+                    "var titlebar = chartContainer.child('titlebar');",
+                    "",
+                    "if (value.id.match(/ext-list/)) {",
+                    "    titlebar.setTitle('Bar chart');",
+                    "} else {",
+                    "    titlebar.setTitle('Line chart');",
+                    "}",
+                    ""
+                ],
+                "name": "activeitemchange",
+                "designer|targetType": "CompanyNavigation",
+                "designer|controlQuery": "navigationview"
+            },
+            "designerId": "c0fc0a0c-a0a0-4a4a-832b-8b0aa518f590"
+        },
+        {
+            "type": "controllerref",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "designer|userClassName": "companyDetail",
+                "ref": "companyDetail",
+                "selector": ".companydetail"
+            },
+            "designerId": "c2e4dbc8-36e5-40d7-93e6-f30f2d197c9b"
+        }
+    ]
+}

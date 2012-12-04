@@ -1,0 +1,81 @@
+{
+    "type": "Ext.data.Model",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "designer|userClassName": "Company"
+    },
+    "designerId": "b1393dcb-2a9e-48db-9048-56a5eae135a2",
+    "cn": [
+        {
+            "type": "Ext.data.Field",
+            "reference": {
+                "name": "fields",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "name": "name",
+                "designer|userClassName": "field"
+            },
+            "designerId": "4eaa0af7-a167-428f-b179-74d2183487e5"
+        },
+        {
+            "type": "Ext.data.Field",
+            "reference": {
+                "name": "fields",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "name": "revenue",
+                "type": "float",
+                "designer|userClassName": "field1"
+            },
+            "designerId": "8a571d91-efc7-47b6-8e77-c97088f4a874"
+        },
+        {
+            "type": "Ext.data.Field",
+            "reference": {
+                "name": "fields",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "name": "employees",
+                "designer|userClassName": "field2"
+            },
+            "designerId": "4bc6128c-4eef-4ad7-b69a-17fdbd8065ad"
+        },
+        {
+            "type": "Ext.data.Field",
+            "reference": {
+                "name": "fields",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "name": "industry",
+                "designer|userClassName": "field3"
+            },
+            "designerId": "8f54b5e8-7a0f-4ce7-b4d0-65dacb156561"
+        },
+        {
+            "type": "Ext.data.Field",
+            "reference": {
+                "name": "fields",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "name": "id",
+                "type": "int",
+                "designer|userClassName": "field6"
+            },
+            "designerId": "578e3aa1-5606-4fef-9619-e3f1eab1befc"
+        }
+    ]
+}
