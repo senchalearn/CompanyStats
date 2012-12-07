@@ -22,7 +22,7 @@
             "codeClass": null,
             "userConfig": {
                 "designer|userClassName": "MyAjaxProxy1",
-                "url": "http://localhost:4000/api/stocks-1.json"
+                "url": "http://localhost:4000/api/stock-data-1.json"
             },
             "designerId": "bec4ca8e-7b50-417e-9c7a-8d161e9effaa",
             "cn": [

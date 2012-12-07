@@ -1,0 +1,91 @@
+{
+    "type": "Ext.chart.CartesianChart",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "designer|userClassName": "CompanyStockChart",
+        "designer|userAlias": "companystockchart",
+        "store": "StockDataStore"
+    },
+    "designerId": "c784501e-84c3-4938-9c96-f01dda854d45",
+    "iconCls": "icon-line-chart",
+    "cn": [
+        {
+            "type": "Ext.chart.axis.Time",
+            "reference": {
+                "name": "axes",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "fields": [
+                    "date"
+                ],
+                "grid": null,
+                "title": null,
+                "designer|userClassName": "MyTimeAxis"
+            },
+            "designerId": "4637dce2-2051-4584-b410-4185bc0bc9dc"
+        },
+        {
+            "type": "Ext.chart.axis.Numeric",
+            "reference": {
+                "name": "axes",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "fields": [
+                    "open"
+                ],
+                "grid": [
+                    "{",
+                    "    odd: {",
+                    "        fill: '#e8e8e8'",
+                    "    }",
+                    "}"
+                ],
+                "position": "left",
+                "title": null,
+                "designer|userClassName": "MyNumericAxis1"
+            },
+            "designerId": "2fdf60d9-340a-4300-a935-c6df287fb6f5"
+        },
+        {
+            "type": "Ext.chart.series.Line",
+            "reference": {
+                "name": "series",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "style": [
+                    "{",
+                    "    smooth: true,",
+                    "    stroke: 'rgb(0,200,0)',",
+                    "    fill: 'rgba(0,200,0,0.3)'",
+                    "}"
+                ],
+                "designer|userClassName": "MyLineSeries",
+                "xField": "date",
+                "yField": "open"
+            },
+            "designerId": "5b3475ac-0bd1-44f9-a6b4-168fa0deb549"
+        },
+        {
+            "type": "Ext.chart.interactions.PanZoom",
+            "reference": {
+                "name": "interactions",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "designer|userClassName": "MyPanZoomInteraction1"
+            },
+            "designerId": "b6aa574a-3edd-4267-81ab-f6dfa689b46f"
+        }
+    ]
+}

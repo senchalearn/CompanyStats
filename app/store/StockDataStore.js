@@ -26,7 +26,7 @@ Ext.define('ComStat.store.StockDataStore', {
         storeId: 'StockDataStore',
         proxy: {
             type: 'ajax',
-            url: 'http://localhost:4000/api/stocks-1.json',
+            url: 'http://localhost:4000/api/stock-data-1.json',
             reader: {
                 type: 'json'
             }

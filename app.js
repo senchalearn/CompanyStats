@@ -31,7 +31,8 @@ Ext.application({
         'CompanyNavigation',
         'CompanyDetail',
         'ChartContainer',
-        'CompanyBarChart'
+        'CompanyBarChart',
+        'CompanyStockChart'
     ],
     controllers: [
         'CompanyController'

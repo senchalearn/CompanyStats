@@ -68,6 +68,7 @@ Ext.define('ComStat.controller.CompanyController', {
             } else {
                 Ext.StoreManager.lookup('StockDataStore').load();
                 // add a CompanyStockChart to the chart container
+                cont.add({xtype:'companystockchart'});
             }
             main.setActiveItem('chartcontainer');
             button.setText('hide chart');
