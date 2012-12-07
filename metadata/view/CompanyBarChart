@@ -1,0 +1,91 @@
+{
+    "type": "Ext.chart.CartesianChart",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "designer|userClassName": "CompanyBarChart",
+        "designer|userAlias": "companybarchart",
+        "colors": [
+            "[",
+            "    \"#115fa6\", ",
+            "    \"#94ae0a\", ",
+            "    \"#a61120\"",
+            "]"
+        ],
+        "store": "CompanyStore"
+    },
+    "designerId": "028ad664-e816-43e4-b7b4-194958487411",
+    "iconCls": "icon-bar-chart",
+    "cn": [
+        {
+            "type": "Ext.chart.axis.Category",
+            "reference": {
+                "name": "axes",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "fields": [
+                    "name"
+                ],
+                "grid": null,
+                "designer|userClassName": "MyCategoryAxis"
+            },
+            "designerId": "e6e8a8e7-b14a-4625-98fe-908d347727d2"
+        },
+        {
+            "type": "Ext.chart.axis.Numeric",
+            "reference": {
+                "name": "axes",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "fields": [
+                    "revenue"
+                ],
+                "grid": [
+                    "{",
+                    "    odd: {",
+                    "        fill: '#e8e8e8'",
+                    "    }",
+                    "}"
+                ],
+                "position": "left",
+                "designer|userClassName": "MyNumericAxis"
+            },
+            "designerId": "5cbcd515-300c-4244-b89c-eb1463274a0f"
+        },
+        {
+            "type": "Ext.chart.series.Bar",
+            "reference": {
+                "name": "series",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "designer|userClassName": "MyBarSeries",
+                "xField": "name",
+                "yField": [
+                    "revenue"
+                ]
+            },
+            "designerId": "e34b4987-4514-498d-bbfa-26d69d9f0f43"
+        },
+        {
+            "type": "Ext.chart.interactions.PanZoom",
+            "reference": {
+                "name": "interactions",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "designer|userClassName": "MyPanZoomInteraction"
+            },
+            "designerId": "370a9ea3-c00b-4538-9767-4662c786d869"
+        }
+    ]
+}

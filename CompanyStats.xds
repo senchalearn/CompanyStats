@@ -84,6 +84,14 @@
                 "app/store/StockDataStore.js"
             ],
             "className": "StockDataStore"
+        },
+        "028ad664-e816-43e4-b7b4-194958487411": {
+            "paths": [
+                "metadata/view/CompanyBarChart",
+                "app/view/override/CompanyBarChart.js",
+                "app/view/CompanyBarChart.js"
+            ],
+            "className": "CompanyBarChart"
         }
     },
     "viewOrderMap": {
@@ -91,7 +99,8 @@
             "00d49b68-1c14-48c1-b941-656b75d076fa",
             "be0a6884-f6d6-436f-8bc6-bd096763f018",
             "92d27d78-73e9-4a38-9f7d-08c64c5d119c",
-            "7bce5aac-18fb-40af-9299-c695aa8259a4"
+            "7bce5aac-18fb-40af-9299-c695aa8259a4",
+            "028ad664-e816-43e4-b7b4-194958487411"
         ],
         "store": [
             "76b625d5-78d0-426c-acc5-3f3f890702d2",

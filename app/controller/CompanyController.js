@@ -64,6 +64,7 @@ Ext.define('ComStat.controller.CompanyController', {
         } else {
             if (titlebar.getTitle().match(/Bar/)) {
                 // add a CompanyBarChart to the chart container
+                cont.add({xtype:'companybarchart'});
             } else {
                 Ext.StoreManager.lookup('StockDataStore').load();
                 // add a CompanyStockChart to the chart container

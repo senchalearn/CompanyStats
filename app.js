@@ -30,7 +30,8 @@ Ext.application({
         'Main',
         'CompanyNavigation',
         'CompanyDetail',
-        'ChartContainer'
+        'ChartContainer',
+        'CompanyBarChart'
     ],
     controllers: [
         'CompanyController'
