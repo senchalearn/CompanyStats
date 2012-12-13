@@ -40,7 +40,7 @@ Ext.define('ComStat.controller.CompanyController', {
     showDetailView: function(dataview, index, target, record, e, eOpts) {
         var id = record.data.id,
             store = Ext.StoreManager.lookup('StockDataStore');
-        store.getProxy().setUrl('http://localhost:4000/api/stock-data-'+id+'.json');
+        store.getProxy().setUrl('http://senchalearn.github.com/CompanyStats/api/stock-data-'+id+'.json');
 
         var nav = this.getNavigation(),
             detail = Ext.create('ComStat.view.CompanyDetail', {

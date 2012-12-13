@@ -22,7 +22,7 @@
             "codeClass": null,
             "userConfig": {
                 "designer|userClassName": "MyAjaxProxy",
-                "url": "http://localhost:4000/api/stats"
+                "url": "http://senchalearn.github.com/CompanyStats/api/stats"
             },
             "designerId": "d6b138d8-d736-4cd8-b4a7-9005c01f6a7e",
             "cn": [

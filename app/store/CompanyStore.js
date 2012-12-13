@@ -26,7 +26,7 @@ Ext.define('ComStat.store.CompanyStore', {
         storeId: 'CompanyStore',
         proxy: {
             type: 'ajax',
-            url: 'http://localhost:4000/api/stats',
+            url: 'http://senchalearn.github.com/CompanyStats/api/stats',
             reader: {
                 type: 'json'
             }
